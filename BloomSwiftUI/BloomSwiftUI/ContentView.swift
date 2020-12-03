@@ -62,7 +62,7 @@ struct MainFlower: View {
     var body: some View {
         ZStack {
             ZStack {
-                Image("pngtest")
+                Image("petal")
                    .resizable()
                     .frame(width: 90, height: 180, alignment: .center) // Middle
                    .rotationEffect(.degrees(0), anchor: .bottom)
